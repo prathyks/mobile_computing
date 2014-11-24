@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/list_paired_btn"
+            android:layout_width="156dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:text="@string/list_paired" />
+
+        <Button
+            android:id="@+id/discover_btn"
+            android:layout_width="156dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:text="@string/discover" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ListView 
+            android:id="@+id/bt_device_list"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" >
+            
+        </ListView>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <ListView 
+            android:id="@+id/bt_paired_list"
+            android:layout_width="fill_parent"
+            android:layout_height="200dp" >"
+        </ListView>
+
+    </LinearLayout>
+
+</LinearLayout>
